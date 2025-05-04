@@ -1,0 +1,154 @@
+body {
+    font-family: 'Arial', sans-serif;
+    line-height: 1.8;
+    margin: 0;
+    background-color: #f9f5f6;
+    color: #333;
+}
+
+.container {
+    width: 85%;
+    margin: auto;
+    overflow: hidden;
+    padding: 25px;
+}
+
+header {
+    background: #f7dcd0;
+    color: #fff;
+    padding-top: 40px;
+    min-height: 80px;
+    border-bottom: 4px solid #e8b3a3;
+    font-size: large;
+}
+
+header h1 {
+    color: #5c3d2e;
+    text-align: center;
+    font-size: 2.8em;
+    font-family: 'Lovers Quarrel', cursive;
+    font-weight: normal;
+}
+
+nav {
+    background: #e8b3a3;
+    color: #fff;
+    padding: 12px 0;
+    text-align: center;
+    font-size: 1.1em;
+}
+
+nav a {
+    color: #fff;
+    text-decoration: none;
+    padding: 12px 20px;
+    border-radius: 7px;
+}
+
+nav a:hover {
+    background: #5c3d2e;
+    color: #fff;
+}
+
+#showcase {
+    min-height: 350px;
+    background: url('makeup_banner.jpg') no-repeat center center/cover;
+    text-align: center;
+    color: #121111;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#showcase h1 {
+    font-size: 3.5em;
+    margin-bottom: 10px;
+    font-family: 'Lovers Quarrel', cursive;
+    font-weight: normal;
+}
+
+#showcase p {
+    font-size: 1.5em;
+    font-weight: bold;
+}
+
+#content-area {
+    padding: 30px;
+    background: #fff;
+}
+
+.makeup-post {
+    border: 1px solid #ddd;
+    padding: 20px;
+    margin-bottom: 25px;
+    background: #fefefe;
+    text-align: center;
+}
+
+.makeup-post img {
+    width: 280px;
+    height: 200px;
+    margin-bottom: 15px;
+    object-fit: cover;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 8px;
+    box-shadow: 3px 3px 8px #ccc;
+}
+
+.makeup-post h2 {
+    color: #e8b3a3;
+    font-size: 2em;
+    font-family: 'Lovers Quarrel', cursive;
+    font-weight: normal;
+    margin-bottom: 10px;
+}
+
+.makeup-post p {
+    font-size: 1.2em;
+    line-height: 1.7;
+}
+
+.makeup-post a {
+    display: inline-block;
+    background: #e8b3a3;
+    color: #fff;
+    padding: 10px 20px;
+    border-radius: 8px;
+    text-decoration: none;
+    margin-top: 15px;
+    font-size: 1.1em;
+    box-shadow: 2px 2px 5px #ccc;
+}
+
+.makeup-post a:hover {
+    background: #5c3d2e;
+}
+
+footer {
+    background: #5c3d2e;
+    color: #fff;
+    text-align: center;
+    padding: 15px;
+    margin-top: 30px;
+    font-size: 1em;
+}
+
+button {
+    background-color: #e8b3a3;
+    color: white;
+    padding: 12px 25px;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    font-size: 1.2em;
+    display: block;
+    margin: 30px auto 0;
+    box-shadow: 2px 2px 5px #ccc;
+}
+
+button:hover {
+    background-color: #5c3d2e;
+}
